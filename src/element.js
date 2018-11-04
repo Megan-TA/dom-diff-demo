@@ -50,7 +50,9 @@ function setAttr (node, key, val) {
 
 export {
   createElement,
-  render
+  render,
+  setAttr,
+  Element
 }
 
   
