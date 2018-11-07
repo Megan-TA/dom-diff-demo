@@ -32,7 +32,7 @@ function render (virtualDom) {
 function setAttr (node, key, val) {
   switch(key) {
   case 'value':
-    let tagName = node[key].tagName.toLowerCase()
+    let tagName = node.tagName.toLowerCase()
     if (tagName === 'input' || tagName === 'textarea') {
       node.value = val
     } else {

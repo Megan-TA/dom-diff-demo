@@ -8,7 +8,8 @@ let virtualDom = createElement('ul', {class: 'list'}, [
   createElement('li', {class: 'item'}, ['a']),
   createElement('li', {class: 'item'}, ['b']),
   createElement('li', {class: 'item'}, ['c']),
-  createElement('li', {class: 'item'}, ['d'])
+  createElement('li', {class: 'item'}, ['d']),
+  createElement('input', {value: '12222'}, ['d'])
 ])
 
 let virtualDom2 = createElement('ul', {class: 'lists'}, [
